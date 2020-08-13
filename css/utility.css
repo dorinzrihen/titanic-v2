@@ -1,0 +1,44 @@
+:root{
+    --background-color-one: #a8dadc;
+    --background-color-two: #457b9d;
+    --nav-color: #1d3557;
+    --font-color: #f1faee;
+    --font-color-mini-title: #e63946;
+
+
+    --animation-speed: 1s;
+    --main-font-family: 'Roboto', sans-serif;
+    --title-font-family:'Shadows Into Light', cursive;
+}
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--main-font-family);
+}
+
+body{
+    height: 100%;
+    background: var(--background-color-two);
+}
+img{
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding:0;
+} 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
